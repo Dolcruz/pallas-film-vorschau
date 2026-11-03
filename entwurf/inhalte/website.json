@@ -1,0 +1,60 @@
+{
+  "revision": 0,
+  "index": {
+    "weitere-dokus": "Weitere Dokus",
+    "plattformen": "Hier findest du unsere Dokus",
+    "studio-titel": "Dokumentationen rund um die Welt",
+    "studio-text": "Wir erzählen Geschichten aus der Welt der Mobilität, der Technik, des Reisens und des Zeitgeschehens.",
+    "partner": "Unsere Partner"
+  },
+  "dokus": {
+    "titel": "Dokumentationen",
+    "einleitung": "Von Reisen und Kultur bis zu Mobilität und Technik.",
+    "galerie": "Alle Dokus"
+  },
+  "ueber-uns": {
+    "titel": "Das sind wir",
+    "vorspann": "Seit 1990 produzieren wir Dokumentationen und Reportagen aus aller Welt.",
+    "einleitung": "Pallas Film ist eine Münchner Produktionsfirma. Wir erzählen Geschichten für das Fernsehen und zeigen Filme über Mobilität, Kultur, Kulinarik und Gesellschaft auf unserem eigenen Kanal DOKU.",
+    "geschichte": "Stationen unserer Geschichte",
+    "filme": "Filme von Pallas entdecken"
+  },
+  "kontakt": {
+    "titel": "Kontakt",
+    "standort": "Pallas Film München",
+    "formular-titel": "Schreib uns",
+    "formular-text": "Für Produktionsanfragen und Fragen zu unseren Filmen."
+  },
+  "chronik": [
+    {
+      "year": "1990",
+      "title": "Der erste Film",
+      "body": "Im Mai 1990 gründen wir Pallas Film. Unser erster Auftrag kommt von der Adam Opel AG: ein Porträt über den FC Bayern München. Danach bringen wir mit „Carina TV“ für Tele 5 einen der ersten Ableger eines Printmagazins ins deutsche Fernsehen. Für das DSF, heute Sport1, entstehen später über 100 Folgen der täglichen Sendung „Young & Fun“ sowie das Format „Sport 1 Reise“.\n\nAus diesen ersten Produktionen wächst über die Jahrzehnte ein Programm mit mehr als 5.000 Dokumentationen und Reportagen aus über 100 Ländern."
+    },
+    {
+      "year": "2000–2005",
+      "title": "Reisesendungen und internationale Produktionen",
+      "body": "Zwischen 2000 und 2005 produzieren wir für n-tv über 200 Folgen der Reihen „n-tv Reise“ und „Abenteuer & Reisen“. In den folgenden Jahren wächst der Kreis der Sender, die wir mit Programm beliefern, auf mehr als 20 in fünf Ländern. Für N24 entsteht in dieser Zeit auch die „Gourmet-Safari“ mit Moderator Marcel Reif.\n\nMit der Zeit spezialisieren wir uns auf Produktionen im Ausland. Für ZDF „aspekte“ führt uns eine Exklusivreportage nach Teheran zur Kunstsammlung von Farah Diba. Für die Deutsche Welle erzählen wir die Geschichte des Roten Barons auf Tonga. Und für den ORF entsteht die Dokumentation „Ein Stück Tirol im Urwald“."
+    },
+    {
+      "year": "2015–2021",
+      "title": "Vom Urlaubscheck zum ORF-Themenabend",
+      "body": "2015 produzieren wir für den „Urlaubscheck“ des NDR. Seit 2021 steuern wir investigative Dokumentationen zum ORF-Themenabend bei. Auch die Kulinarik führt uns seit Jahren um die Welt: Für „ARD-Buffet“ liefern wir Beiträge über regionale Köstlichkeiten."
+    },
+    {
+      "year": "2022",
+      "title": "Ein Reisefilmpreis und der Start von DOKU",
+      "body": "2022 wird unser Film über Sizilien als beste Reisedokumentation ausgezeichnet. Im selben Jahr beginnt die Zusammenarbeit mit der ZDF-Sportreportage. Für die „sportstudio reportage“ realisieren wir seither zahlreiche Filme aus ganz Europa. Einer davon führt in einen ehemaligen Luftschutzbunker, in dem jüdische und arabische Boxer gemeinsam in einem geheimen Trainingscamp trainieren.\n\nMit DOKU starten wir im gleichen Jahr einen eigenen TV-Kanal für Dokumentationen über Mobilität, Kultur, Kulinarik und Gesellschaft. Über 200 Filme sind unter anderem bei Joyn, YouTube, waipu.tv und Prime Video abrufbar."
+    },
+    {
+      "year": "2025",
+      "title": "35 Jahre Pallas Film und eine Kooperation mit 3sat",
+      "body": "2025 feiern wir unseren 35. Geburtstag und gewinnen mit unseren Naturproduktionen 3sat als Kooperationspartner. Danke für die Glückwünsche zum Jubiläum!"
+    },
+    {
+      "year": "Ausblick",
+      "title": "40 Jahre „Kir Royal“",
+      "body": "Eine satirische TV-Dokumentation nimmt 40 Jahre „Kir Royal“ zum Anlass, die Geschichte der Münchner Schickeria zu erzählen."
+    }
+  ]
+}

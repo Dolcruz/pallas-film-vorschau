@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta name="robots" content="noindex">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pallas Film · Dokumentationen und Reportagen</title>
+  <link rel="preload" as="image" href="assets/uhrenmesse-hero.webp" fetchpriority="high">
+  <link rel="stylesheet" href="style.css">
+  <script src="feature.js" defer></script>
+  <script src="website-inhalte.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="./" aria-label="Pallas Film – Startseite">
+        <img src="../images/doku-by-pallas-linie206.png" alt="DOKU by pallasfilm" width="400" height="100">
+      </a>
+      <nav aria-label="Hauptnavigation">
+        <a href="./" aria-current="page">Start</a>
+        <a href="dokus.html">Dokus</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="kontakt.html">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="feature" aria-labelledby="feature-title">
+      <div class="feature-art" aria-hidden="true"></div>
+      <div class="wrap feature-inner">
+        <div class="feature-copy">
+          <p class="eyebrow"><span class="red-rule"></span> Neu bei DOKU <span class="dot">·</span> <span id="feature-category"></span></p>
+          <h1 id="feature-title"></h1>
+          <p class="intro" id="feature-intro"></p>
+          <a class="watch" target="_blank" rel="noopener"><span class="play" aria-hidden="true"></span> Doku ansehen</a>
+        </div>
+        <div class="feature-controls" aria-label="Dokus im Aufmacher">
+          <span id="feature-position"></span>
+          <button type="button" id="feature-prev" aria-label="Vorherige Doku">←</button>
+          <button type="button" id="feature-next" aria-label="Nächste Doku">→</button>
+          <button type="button" id="feature-toggle" aria-label="Rotation pausieren"><span aria-hidden="true">Ⅱ</span></button>
+          <span id="feature-status" class="visually-hidden" role="status"></span>
+        </div>
+      </div>
+    </section>
+    <section id="dokus" class="films wrap" aria-labelledby="films-title">
+      <div class="section-heading">
+        <h2 id="films-title" data-edit="index.weitere-dokus">Weitere Dokus</h2>
+        <a href="https://www.youtube.com/@DOKU_VIDEO" target="_blank" rel="noopener">Zum DOKU-Kanal <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="film-grid">
+        <article>
+          <a class="film" href="https://www.youtube.com/watch?v=nFKBXVDtjhQ" target="_blank" rel="noopener">
+            <div class="thumbnail"><img src="assets/wiesn-karte.webp" alt="" width="640" height="360" loading="lazy" decoding="async"><span class="film-play" aria-hidden="true"><span class="play"></span></span></div>
+            <p class="film-category">Kultur</p>
+            <h3>Oktoberfest-Finale in der Fischer Vroni</h3>
+          </a>
+        </article>
+        <article>
+          <a class="film" href="https://www.youtube.com/watch?v=T_TEwargiB0" target="_blank" rel="noopener">
+            <div class="thumbnail"><img src="assets/legenden-karte.webp" alt="" width="640" height="360" loading="lazy" decoding="async"><span class="film-play" aria-hidden="true"><span class="play"></span></span></div>
+            <p class="film-category">Kultur</p>
+            <h3>Oktoberfest-Legenden</h3>
+          </a>
+        </article>
+        <article>
+          <a class="film" href="https://www.youtube.com/watch?v=dl2eexe4mcw" target="_blank" rel="noopener">
+            <div class="thumbnail"><img src="assets/inseln-karte.webp" alt="" width="640" height="360" loading="lazy" decoding="async"><span class="film-play" aria-hidden="true"><span class="play"></span></span></div>
+            <p class="film-category">Reise</p>
+            <h3>Die schönsten Trauminseln</h3>
+          </a>
+        </article>
+      </div>
+    </section>
+    <section class="platforms wrap" aria-labelledby="platforms-title">
+      <p class="eyebrow"><span class="red-rule"></span> Streaming &amp; TV</p>
+      <h2 id="platforms-title" data-edit="index.plattformen">Hier findest du unsere Dokus</h2>
+      <ul class="platform-grid">
+        <li><a href="https://www.joyn.de/mediatheken/doku" target="_blank" rel="noopener" aria-label="Joyn"><img src="../images/joyn_logo-768x323.png" alt=""><span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://www.waipu.tv/sender/doku/" target="_blank" rel="noopener" aria-label="waipu.tv"><img src="../images/waipu_tv_logo.png" alt=""><span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://www.youtube.com/@DOKU_VIDEO" target="_blank" rel="noopener" aria-label="YouTube"><img src="../images/yt_logo_rgb_light-768x172.png" alt=""><span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://www.wedotv.com/de-de/" target="_blank" rel="noopener" aria-label="wedotv"><img src="../images/logo-wedotv-190x50.png" alt=""><span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://www.amazon.de/gp/video/storefront" target="_blank" rel="noopener" aria-label="Prime Video"><img src="../images/prime_video_logo-183x55.png" alt=""><span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </section>
+    <section class="studio studio-watch" id="pallas-film" aria-labelledby="studio-title">
+      <div class="studio-watch-art" aria-hidden="true">
+        <img src="assets/studio-uhr.webp" alt="" loading="lazy">
+      </div>
+      <div class="wrap studio-inner">
+        <div>
+          <p class="eyebrow"><span class="red-rule"></span> Pallas Film München</p>
+          <h2 id="studio-title" data-edit="index.studio-titel">Dokumentationen rund um die Welt</h2>
+          <p class="studio-intro" data-edit="index.studio-text">Wir erzählen Geschichten aus der Welt der Mobilität, der Technik, des Reisens und des Zeitgeschehens.</p>
+        </div>
+        <dl class="studio-facts">
+          <div><dt>1990</dt><dd>gegründet</dd></div>
+          <div><dt>5.000+</dt><dd>Produktionen</dd></div>
+          <div><dt>100+</dt><dd>Länder</dd></div>
+        </dl>
+        <a href="ueber-uns.html">Mehr über Pallas Film <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+    <section class="partners" id="partner" aria-labelledby="partners-title">
+      <div class="wrap">
+        <h2 id="partners-title" data-edit="index.partner">Unsere Partner</h2>
+        <ul class="partner-grid">
+          <li><img src="../images/kunden/airbus.png" alt="Airbus" loading="lazy"></li>
+          <li><img src="../images/kunden/alfa-romeo.png" alt="Alfa Romeo" loading="lazy"></li>
+          <li><img src="../images/kunden/bmw.png" alt="BMW" loading="lazy"></li>
+          <li><img src="../images/kunden/bmw_motorrad.png" alt="BMW Motorrad" loading="lazy"></li>
+          <li><img src="../images/kunden/bmw_motorsport.png" alt="BMW Motorsport" loading="lazy"></li>
+          <li><img src="../images/kunden/citroen.png" alt="Citroën" loading="lazy"></li>
+          <li><img src="../images/kunden/deutsche_welle.png" alt="Deutsche Welle" loading="lazy"></li>
+          <li><img src="../images/kunden/iveco_magirus.png" alt="Iveco Magirus" loading="lazy"></li>
+          <li><img src="../images/kunden/lamborghini.png" alt="Lamborghini" loading="lazy"></li>
+          <li><img src="../images/kunden/laurent_perrier.png" alt="Laurent-Perrier" loading="lazy"></li>
+          <li><img src="../images/kunden/n-tv.png" alt="ntv" loading="lazy"></li>
+          <li><img src="../images/kunden/n24.png" alt="N24" loading="lazy"></li>
+          <li><img src="../images/kunden/orf.png" alt="ORF" loading="lazy"></li>
+          <li><img src="../images/kunden/pro7.png" alt="ProSieben" loading="lazy"></li>
+          <li><img src="../images/kunden/rai_suedtirol.png" alt="RAI Südtirol" loading="lazy"></li>
+          <li><img src="../images/kunden/rtl.png" alt="RTL" loading="lazy"></li>
+          <li><img src="../images/kunden/sat.png" alt="SAT" loading="lazy"></li>
+          <li><img src="../images/kunden/sat1_suisse.png" alt="Sat.1 Schweiz" loading="lazy"></li>
+          <li><img src="../images/kunden/sport1.png" alt="Sport1" loading="lazy"></li>
+          <li><img src="../images/kunden/swr.png" alt="SWR" loading="lazy"></li>
+          <li><img src="../images/kunden/vox.png" alt="VOX" loading="lazy"></li>
+          <li><img src="../images/kunden/wdr.png" alt="WDR" loading="lazy"></li>
+          <li><img src="../images/kunden/zdf.png" alt="ZDF" loading="lazy"></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer" id="footer">
+    <div class="wrap">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="brand" href="./" aria-label="Pallas Film – Startseite"><img src="../images/doku-by-pallas-linie206.png" alt="DOKU by pallasfilm" width="400" height="100"></a>
+          <ul aria-label="Seitenlinks">
+            <li><a href="dokus.html">Dokus</a></li>
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Kontakt</h2>
+          <address>
+            <a class="footer-contact-link footer-location" href="https://www.google.com/maps/dir/?api=1&amp;destination=Baldusweg%201%2C%2080997%20M%C3%BCnchen" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+              <span>Baldusweg 1, 80997 München <span aria-hidden="true">↗</span><span class="visually-hidden"> · Route in Google Maps planen</span></span>
+            </a>
+            <a class="footer-contact-link" href="tel:+498993933232">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3H4.5A1.5 1.5 0 0 0 3 4.7 18 18 0 0 0 19.3 21a1.5 1.5 0 0 0 1.7-1.5V17l-5-2-1.7 2a14 14 0 0 1-7.3-7.3L9 8Z"/></svg>
+              <span>+49 89 93933232</span>
+            </a>
+            <a class="footer-contact-link" href="mailto:info@pallas-film.de">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>
+              <span>info@pallas-film.de</span>
+            </a>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Pallas Film München</p>
+        <ul class="footer-social" aria-label="Social Media">
+            <li><a href="https://www.facebook.com/claus.elssmann/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 22v-9h3l.5-3.5H14V7.3c0-1 .3-1.8 1.8-1.8h1.9V2.4a24 24 0 0 0-2.8-.2c-2.8 0-4.7 1.7-4.7 4.8v2.5H7V13h3.2v9Z"/></svg>
+            </a></li>
+            <li><a href="https://www.instagram.com/pallas_film/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a></li>
+            <li><a href="https://www.tiktok.com/@pallasfilm" target="_blank" rel="noopener" aria-label="TikTok" title="TikTok">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 2h3.1a5 5 0 0 0 4 4.4v3.2a8 8 0 0 1-4-1.3v7.1a6.2 6.2 0 1 1-6.2-6.2c.4 0 .7 0 1 .1v3.3a3 3 0 1 0 2.1 2.8Z"/></svg>
+            </a></li>
+          </ul>
+        <ul><li><a href="impressum.html">Impressum</a></li><li><a href="datenschutz.html">Datenschutz</a></li></ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
