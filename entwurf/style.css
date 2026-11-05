@@ -8,13 +8,13 @@
 }
 
 * { box-sizing: border-box; }
+html { scroll-padding-top: 6rem; }
 body, h1, h2, h3, p, figure { margin: 0; }
 a { color: inherit; text-decoration: none; }
 a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
 .wrap { width: min(100% - clamp(3rem, 9vw, 9rem), 80rem); margin-inline: auto; }
 .site-header, .feature { background: var(--ink); color: var(--paper); }
 .site-header { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid #ffffff24; }
-#dokus { scroll-margin-top: 6rem; }
 .header-inner { min-height: 5.5rem; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
 .brand img { display: block; width: clamp(9rem, 23vw, 14rem); height: auto; }
 nav { display: flex; align-items: center; gap: clamp(1rem, 3.6vw, 3rem); font-size: clamp(1.05rem, 1.65vw, 1.35rem); font-weight: 700; letter-spacing: -.025em; }
@@ -209,7 +209,7 @@ h3 { margin-top: .25rem; font-size: clamp(1rem, 1.6vw, 1.3rem); line-height: 1.2
 .legal-index li { margin-top: .6rem; }
 .legal-index a:hover, .legal-copy a { text-decoration: underline; text-underline-offset: .2em; }
 .legal-copy { max-width: 72ch; line-height: 1.7; overflow-wrap: anywhere; }
-.legal-copy h2 { font-size: clamp(1.3rem, 2.3vw, 1.8rem); scroll-margin-top: 7rem; }
+.legal-copy h2 { font-size: clamp(1.3rem, 2.3vw, 1.8rem); scroll-margin-top: 1rem; }
 .legal-copy h2:not(:first-child) { margin-top: 2rem; padding-top: 1.2rem; border-top: 1px solid #17191c26; }
 .legal-copy p { margin-top: .7rem; }
 @media (max-width: 48rem) {
@@ -281,7 +281,7 @@ h3 { margin-top: .25rem; font-size: clamp(1rem, 1.6vw, 1.3rem); line-height: 1.2
   .catalog-grid a:hover { transform: translateY(-3px); box-shadow: 0 7px 16px #17191c19; }
   .catalog-card-play, .catalog-pages button, .catalog-youtube { transition: background-color 160ms ease-out, color 160ms ease-out, border-color 160ms ease-out; }
 }
-#catalog-title { scroll-margin-top: 7rem; }
+#catalog-title { scroll-margin-top: 1rem; }
 .catalog-pages:not([hidden]) { display: grid; grid-template-columns: 2.75rem 1fr 2.75rem; align-items: center; width: min(100%, 20rem); margin: 2.5rem auto 0; border: 1px solid #17191c24; border-radius: .4rem; background: #fffdf8; text-align: center; }
 .catalog-pages [data-page-label] { font-size: .9rem; font-weight: 650; font-variant-numeric: tabular-nums; }
 .catalog-pages button { min-height: 2.75rem; padding: 0; border: 0; border-radius: .35rem; background: transparent; color: inherit; font: inherit; font-size: 1.2rem; cursor: pointer; }
@@ -336,6 +336,5 @@ h3 { margin-top: .25rem; font-size: clamp(1rem, 1.6vw, 1.3rem); line-height: 1.2
 @media (max-width: 30rem) {
   .header-inner { flex-wrap: wrap; justify-content: center; gap: 0; padding-top: .5rem; }
   .header-inner nav { justify-content: center; width: 100%; gap: clamp(.55rem, 3vw, 1rem); font-size: .9rem; }
-  #dokus { scroll-margin-top: 7rem; }
   .footer-main { grid-template-columns: 1fr; }
 }
