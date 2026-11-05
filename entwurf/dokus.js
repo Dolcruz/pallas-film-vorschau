@@ -90,8 +90,13 @@ async function loadCatalog() {
       status.textContent = matches.length ? `${matches.length} ${matches.length === 1 ? "Film" : "Filme"}` : "Keine Filme gefunden.";
       for (const pager of pagers) {
         const label = pager.querySelector("[data-page-label]");
-        label.textContent = `${page} / ${pages}`;
-        label.setAttribute("aria-label", `Seite ${page} von ${pages}`);
+        const shown = document.createElement("span");
+        const spoken = document.createElement("span");
+        shown.setAttribute("aria-hidden", "true");
+        shown.textContent = `${page} / ${pages}`;
+        spoken.className = "visually-hidden";
+        spoken.textContent = `Seite ${page} von ${pages}`;
+        label.replaceChildren(shown, spoken);
         pager.hidden = pages <= 1;
         pager.querySelector('[data-step="-1"]').disabled = page <= 1;
         pager.querySelector('[data-step="1"]').disabled = page >= pages;
