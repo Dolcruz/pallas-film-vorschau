@@ -121,6 +121,7 @@ async function loadCatalog() {
     render();
     animateCards();
   } catch {
+    document.querySelector(".catalog-metrics").hidden = true;
     status.textContent = "Die Filmliste ist gerade nicht verfügbar. Auf YouTube findest du den DOKU-Kanal.";
   }
 }
