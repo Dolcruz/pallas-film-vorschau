@@ -331,11 +331,11 @@ h3 { margin-top: .25rem; font-size: clamp(1rem, 1.6vw, 1.3rem); line-height: 1.2
 @media (max-width: 23rem) {
   nav { font-size: .8rem; gap: .65rem; }
   .brand img { width: 7.25rem; }
-  .footer-main { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 30rem) {
   .header-inner { flex-wrap: wrap; justify-content: center; gap: 0; padding-top: .5rem; }
   .header-inner nav { justify-content: center; width: 100%; gap: clamp(.55rem, 3vw, 1rem); font-size: .9rem; }
   #dokus { scroll-margin-top: 7rem; }
+  .footer-main { grid-template-columns: 1fr; }
 }
