@@ -213,6 +213,9 @@ h3 { margin-top: .25rem; font-size: clamp(1rem, 1.6vw, 1.3rem); line-height: 1.2
 .legal-copy h2 { font-size: clamp(1.3rem, 2.3vw, 1.8rem); scroll-margin-top: 1rem; }
 .legal-copy h2:not(:first-child) { margin-top: 2rem; padding-top: 1.2rem; border-top: 1px solid #17191c26; }
 .legal-copy p { margin-top: .7rem; }
+.legal-copy h3 { margin-top: 1.5rem; }
+.legal-copy h2 + h3 { margin-top: .9rem; }
+.legal-copy ul { margin: .7rem 0 0; padding-inline-start: 1.25rem; }
 @media (max-width: 48rem) {
   .legal-layout:has(.legal-index) { grid-template-columns: 1fr; }
 }
